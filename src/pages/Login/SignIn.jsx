@@ -14,7 +14,7 @@ function SignIn() {
       login: e.target.login.value,
       password: e.target.password.value,
     };
-    if (data.login === "islom" && data.password === "123") { 
+    if (data.login === "Ruslan" && data.password === "12345") { 
       setToken(data);
 
       e.target.reset();
